@@ -1,0 +1,25 @@
+2024-08-06 19:41:21 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 22460
+2024-08-06 19:41:21 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-08-06 19:41:21 0 [Note] InnoDB: Uses event mutexes
+2024-08-06 19:41:21 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-08-06 19:41:21 0 [Note] InnoDB: Number of pools: 1
+2024-08-06 19:41:21 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-08-06 19:41:21 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-08-06 19:41:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-08-06 19:41:21 0 [Note] InnoDB: Resizing redo log from 2*5242880 to 2*50331648 bytes; LSN=547746
+2024-08-06 19:41:21 0 [Note] InnoDB: Starting to delete and rewrite log files.
+2024-08-06 19:41:21 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 50331648 bytes
+2024-08-06 19:41:21 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 50331648 bytes
+2024-08-06 19:41:21 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2024-08-06 19:41:21 0 [Note] InnoDB: New log files created, LSN=547746
+2024-08-06 19:41:21 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-08-06 19:41:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-08-06 19:41:21 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-08-06 19:41:21 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-08-06 19:41:21 0 [Note] InnoDB: Waiting for purge to start
+2024-08-06 19:41:22 0 [Note] InnoDB: 10.4.32 started; log sequence number 547746; transaction id 894
+2024-08-06 19:41:22 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-08-06 19:41:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-08-06 19:41:22 0 [Note] InnoDB: Buffer pool(s) load completed at 240806 19:41:22
+ERROR: 1471  The target table user of the INSERT is not insertable-into
+2024-08-06 19:41:22 0 [ERROR] Aborting
